@@ -1,0 +1,29 @@
+[package]
+name = "emb-tdd-rust"
+version = "0.1.0"
+authors = ["tamasfeher <tamas@edbuilds.net>"]
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.2.0"
+embedded-hal = "0.2.7"
+
+[dev-dependencies]
+mockall = "0.12.1"
+
+[dependencies.stm32f4xx-hal]
+version = "0.17.1"
+features = ["stm32f446", ]
+
+# Set the default for dependencies.
+[profile.dev.package."*"]
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1
+incremental = false
+debug = true
+lto = true
+opt-level = "s"
