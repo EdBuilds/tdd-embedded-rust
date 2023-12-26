@@ -1,6 +1,8 @@
-# Test Driven Development example for embedded rust
-This repository hosts the project introduced in this blog post.
+# Test Driven Development for Embedded Rust - Example`=
+
+This repository hosts the project introduced in [this blog post.][link]
 It contains a simple application which can be both unit tested and deployed on the target with no configuration changes needed.
+
 ## Dependencies
 
 To build this program, you'll need:
@@ -42,4 +44,5 @@ Contribution to this crate is organized under the terms of the [Rust Code of
 Conduct][CoC], the maintainer of this crate, promises
 to intervene to uphold that code of conduct.
 
+[link]: https://hackaday.io/page/21907-test-driven-embedded-rust-development-tutorial
 [CoC]: https://www.rust-lang.org/policies/code-of-conduct
