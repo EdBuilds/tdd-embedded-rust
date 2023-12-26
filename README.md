@@ -1,4 +1,4 @@
-# Test Driven Development for Embedded Rust - Example`=
+# Test Driven Development for Embedded Rust - Example
 
 This repository hosts the project introduced in [this blog post.][link]
 It contains a simple application which can be both unit tested and deployed on the target with no configuration changes needed.
